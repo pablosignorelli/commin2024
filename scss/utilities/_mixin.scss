@@ -1,0 +1,22 @@
+@mixin card($eje-x, $eje-y ){
+
+                 right:$eje-x ;
+                 bottom: $eje-y ;    
+                     }
+
+.imagen1{
+    @include card(10px,10px);
+}                 
+
+
+
+@mixin card1($param1){
+
+
+    left: $param1;
+    
+               }
+
+.arduinouno{
+@include card1(500px);
+} 

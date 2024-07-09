@@ -1,0 +1,8 @@
+%body-l{
+        border: 4px solid black;  
+        border-radius: 5px;
+        }
+
+.ModelodeArduino{
+    @extend %body-l;
+}       

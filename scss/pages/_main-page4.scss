@@ -1,0 +1,32 @@
+body{
+     
+     main{
+          .orange {
+                   color: $Naranja2;
+                  }
+          
+         /* .ModelodeArduino {
+                            border: 4px solid black;  
+                            border-radius: 5px;
+                           } */
+       
+        }
+
+    
+     }
+
+
+@media  screen and (max-width:1024px) {
+     main {
+          font-size: medium;
+         }
+}
+
+
+
+@media  screen and (max-width:768x) {
+     main {
+          font-size: small;
+         }
+}
+    

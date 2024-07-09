@@ -1,0 +1,124 @@
+body{
+     background-color: $Fondo;
+      main{
+           font-size: 18px; 
+                   
+           
+           h2 {
+              text-align: center;}
+                      
+            .brown {
+                    color:$Marron;
+                   }
+                
+
+           .contenedor {
+                    display: grid;
+                    grid-gap: 10px;
+                    grid-template-columns: 1fr 1fr 1fr;
+                    grid-template-rows: 400px 500px 100px;
+                    grid-template-areas: "header header header"
+                                         "sidebar sidebar sombra1"
+                                         "footer footer footer";                
+        
+                        .header {
+                                 background-color: $Verde5;
+                                 grid-column-start: header;
+                                 grid-column-end: header;
+                                }
+                  
+                       .sidebar {
+                                 background-color:$Amarillo2;
+                                 grid-column-start: sidebar;
+                                 grid-column-end: sidebar;
+
+                                .imagen2B {
+                                           position: relative;
+                                           top: 35px;
+                                           left: 20px;
+                                          }
+                                }
+                          
+                       .sombra1 {
+                                  background-color: $Celeste1;
+                                  grid-column-start: sombra1;
+                                  grid-column-end: sombra1;
+
+                                  .imagen2 {
+                                            position: relative;
+                                            top: 110px;
+                                            left: 100px;
+                                           }
+                                 }        
+                 
+                       .footer {
+                                background-color: $Naranja1;
+                                grid-column-start: footer;
+                                grid-column-end: footer;
+                                }
+                       }    
+
+           }    
+
+      
+        }
+
+ @media  screen and (max-width:1024px) {
+
+                body{
+                    
+
+                     .main {font-size:medium;
+                            background-color: rgb(233, 233, 122);
+                            
+                           .imagen2 {
+                                     position: relative;
+                                     top: 80px;
+                                     left: 50px;
+                                     width: 400px;
+                                    }
+                                               
+                           .position {
+                                      position: relative;
+                                      left: 400px;
+                                     }                   
+               
+                           .imagen2 {
+                                     display: none;
+                                    }                        
+                                
+                           }
+                     }
+                }
+
+
+@media  screen and (max-width:768px) {
+     
+         body{ 
+        
+              .main {
+                    font-size: 12px;
+                    background-color: rgb(223, 223, 81);        
+                
+                    
+                                      
+                    .position {
+                               position:relative;
+                               left: 100px;
+                               }
+                                       
+                    .imagen2 {
+                              display: none;
+                             }
+
+                    .imagen2B {
+                               position: relative;
+                               left:50px;
+                               top: 100px;
+                               width: 160px ;
+                               } 
+                          
+             
+                     }
+              }             
+}

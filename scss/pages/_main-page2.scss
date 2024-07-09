@@ -1,0 +1,94 @@
+body{
+
+     main{
+          .contenedor {
+              display: grid;
+              grid-gap: 10px;
+              grid-template-columns: 1fr 1fr 1fr;
+              grid-template-rows: 400px 500px 100px;
+              grid-template-areas: "header header header"
+                                   "sidebar sidebar sombra1"
+                                   "footer footer footer";                
+           
+
+            .header {
+                     background-color: $Verde5;
+                     grid-column-start: header;
+                     grid-column-end: header;
+
+                     .blue {
+                            color: $Azul1;
+                           }
+                    }
+
+            .sidebar {
+                      background-color: $Amarillo2;
+                      grid-column-start: sidebar;
+                      grid-column-end: sidebar;
+                      
+                      .blue {
+                             color: $Azul1;
+                            }
+                     }
+
+            .sombra1 {
+                      background-color: $Celeste1;
+                      grid-column-start: sombra1;
+                      grid-column-end: sombra1;
+                      }
+   
+            .footer {
+                     background-color: $Naranja1;
+                     grid-column-start: footer;
+                     grid-column-end: footer;
+                    } 
+                }
+
+         }
+}
+
+@media  screen and (max-width:1024px) {
+
+       body{ 
+
+              main {
+                    font-size:medium;
+             
+                    .imagen3 {
+                              width:250px;
+                              height: 200px;
+                              position: relative;
+                              left: 0px;
+                             }
+
+                     .imagen4 {
+                               width:290px ;
+                               height: 200px;
+                               }      
+                     }
+             }
+}
+
+
+@media  screen and (max-width:768px) {
+
+       body{
+           
+            main {
+                  font-size:  12px;
+                  
+                  .imagen3 {
+                            width:150px;
+                            height: 110px;
+                            position: relative;
+                            left: 70px;
+                            top: 10px;
+                           }
+
+                   .imagen4 {
+                             display: none;
+                            }    
+              
+                   }
+             }
+}

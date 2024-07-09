@@ -4,7 +4,7 @@
     box-sizing:border-box;
     }*/
 
-    ul  li {   
+  /*  ul  li {   
             margin-left: 120px;
             display: inline-block;
             color: rgb(9, 2, 15);
@@ -19,21 +19,22 @@
             font-size: 25px;
             font-weight: bolder;
             }
+            */
 
-          a {
+       /*  a {
              text-decoration: none;
-            }
+            }*/
 
-       main {
+       /*main {
              font-size: 18px;
-            }
+            }*/
 
-.arduinouno {
+/*.arduinouno {
              position:relative;
              left: 500px;
-            }
+            }*/
         
-.contenedor {
+/*.contenedor {
               display: grid;
               grid-gap: 10px;
               grid-template-columns: 1fr 1fr 1fr;
@@ -41,9 +42,9 @@
               grid-template-areas: "header header header"
                                    "sidebar sidebar sombra1"
                                    "footer footer footer";                
-            }
+            }*/
 
-.contenedor
+/*.contenedor
 .header     {
              background-color: rgb(154, 240, 190);
              grid-column-start: header;
@@ -54,34 +55,34 @@
              background-color: rgb(255, 253, 127);
              grid-column-start: sidebar;
              grid-column-end: sidebar;
-            }
+            }*/
 
-   .imagen2 {
+  /* .imagen2 {
              position: relative;
              top: 110px;
              left: 100px;
-            }
+            }*/
 
-  .imagen2B {
+  /*.imagen2B {
              position: relative;
              top: 35px;
              left: 20px;
-                 }
+                 }*/
 
-   .sombra1 {
+   /*.sombra1 {
              background-color: rgb(100, 209, 252);
              grid-column-start: sombra1;
              grid-column-end: sombra1;
-            }
+            }*/
 
-    .footer {
+   /* .footer {
              background-color: rgb(248, 192, 119);
              grid-column-start: footer;
              grid-column-end: footer;
-            }      
+            } */     
 
 /* Configuración de los botones de enlace interno*/
-    .Inicio {
+    /*.Inicio {
              color: rgb(9, 2, 15);
              padding: 10px;
              background-color: rgb(240, 129, 38);
@@ -112,23 +113,24 @@
               border-radius: 15px;    
               position: relative;
               top: 40px;   
-             }
+             }*/
 
 /* Logo con Fixed*/
 
-   .imagen1 {
-             /*display: none;*/
+  /* .imagen1 {
+         
              vertical-align: middle;
-             /* margin-top: -70px;*/
+         
              border: 2px solid rgb(129, 189, 134);
              border-radius: 10px;
              position: fixed;
              z-index: 100;
              bottom: 10px;
              right: 10px;
-            }
+            } 
+            */
 
-.principal {
+/*.principal {
             font-family:"Arial";
             text-align: center;
             color:rgb(52, 128, 52);
@@ -140,56 +142,56 @@
             margin-right: 40px;
             border: 3px solid rgb(5, 1, 1);
             border-radius: 15px;
-           }
+           }*/
            
-#principalA::first-letter{
+/*#principalA::first-letter{
                           font-family: 'Courier New', Courier, monospace;
                           font-size: 40px;
                           color: darkgreen;
-                         }           
+                         } */          
 
-        h1 {
+       /* h1 {
             text-align: center;
-           }
+           }*/
 
- .position {
+ /*.position {
             position:relative;
             left: 800px;
-           }
+           }*/
 
-        h2 {
+       /* h2 {
             text-align: center;
-           }
+           }*/
 
-    .brown {
+   /* .brown {
             color:rgb(179, 69, 69);
-           }
+           }*/
 
-   .orange {
+   /*.orange {
             color:rgb(197, 130, 4);
-           }
+           }*/
 
-     .blue {
+    /* .blue {
             color:rgb(69, 69, 180);
-           }
+           }*/
 
-.ModelodeArduino {
+/*.ModelodeArduino {
                   border: 4px solid black;  
                   border-radius: 5px;
-                 }      
+                 }*/      
 
-      body {
+      /*body {
             background-color: beige;
-           }
+           }*/
 
-  .footerB {
+  /*.footerB {
             background-color: rgb(248, 192, 119);
             height: 100px;
-           }  
+           }*/  
 
 /*Configuración de Bootstrap*/
 
-    .slide {
+    /*.slide {
             width: 600px;
             position:relative;
             left: 650px;
@@ -197,7 +199,7 @@
 
    .d-block{
             height: 400px;
-            }
+            } */
  /*Configuración con Responsive*/
 
 @media  screen and (max-width:1024px) {
@@ -205,14 +207,14 @@
                                               background-color: rgb(233, 233, 122);
                                              }
 
-                                        .imagen2 {
+                                       /* .imagen2 {
                                                   position: relative;
                                                   top: 80px;
                                                   left: 50px;
                                                   width: 400px;
-                                                 }
+                                                 }*/
 
-                                        .imagen3 {
+                                       /* .imagen3 {
                                                   width:250px;
                                                   height: 200px;
                                                   position: relative;
@@ -222,14 +224,14 @@
                                         .imagen4 {
                                                   width:290px ;
                                                   height: 200px;
-                                                 }
+                                                 }*/
 
-                                        .position {
+                                        /*.position {
                                                    position: relative;
                                                    left: 400px;
-                                                  }
+                                                  }*/
 
-                                            ul li {
+                                           /* ul li {
                                                    padding: 5px;
                                                    margin: 20px;
                                                    border-radius: 10px;    
@@ -242,25 +244,25 @@
                                                    border-radius: 12px;
                                                    padding: 10px 4px;
                                                    margin-bottom: 70px;
-                                                  }
+                                                  }*/
 
                                              main {
                                                    font-size:medium;
                                                   }
 
-                                      .arduinouno {
+                                      /*.arduinouno {
                                                    position: relative;
                                                    left: 200px;
-                                                  }  
+                                                  }*/  
 
-                                           .slide {
+                                         /*.slide {
                                                   width: 500px;
                                                   left: 280px;
-                                                  } 
+                                                  } */
                                       
-                                       .imagen2 {
+                                       /*.imagen2 {
                                                   display: none;
-                                                 }
+                                                 }*/
 
                                        .imagen2B {
                                                   position: relative;
@@ -278,14 +280,14 @@
                                              background-color: rgb(223, 223, 81);
                                             }
                                  
-                                   .imagen2 {
+                                   /*.imagen2 {
                                              position: relative;
                                              top: 150px;
                                              left: 50px;
                                              width: 200px;
-                                            }
+                                            } */
 
-                                   .imagen3 {
+                                   /*.imagen3 {
                                              width:150px;
                                              height: 100px;
                                              position: relative;
@@ -294,47 +296,47 @@
                                   
                                    .imagen4 {
                                              display: none;
-                                            }
+                                            }*/
                             
-                                  .position {
+                                  /*.position {
                                              position:relative;
                                              left: 100px;
-                                            }
+                                            }*/
 
-                                     ul  li {
-                                             padding: 0px;
-                                             margin: 5px;
-                                             border-radius: 10px;    
-                                             left: 0px;
-                                             font-size: 12px;
-                                            }
+                                          /*  ul  li {
+                                                 padding: 0px;
+                                                 margin: 5px;
+                                                 border-radius: 10px;    
+                                                 left: 0px;
+                                                 font-size: 12px;
+                                                }
 
                                  .principal {
                                              font-size:medium;
                                              border-radius: 10px;
                                              padding: 8px 2px;
                                              margin-bottom: 50px;
-                                            }
+                                            }*/
  
                                        main {
                                              font-size: small;
                                             }
 
-                                .arduinouno {
+                               /* .arduinouno {
                                              position:relative;
                                              bottom: 160px;
                                              left: 10px;
                                              width: 200px;
-                                            }
+                                            }*/
 
-                                     .slide {
+                                   /*.slide {
                                              width: 400px;
                                              left: 20px;
-                                             }   
+                                             }   */
                                              
-                                   .imagen2 {
+                                   /*.imagen2 {
                                               display: none;
-                                             }
+                                             }*/
 
                                    .imagen2B {
                                               position: relative;

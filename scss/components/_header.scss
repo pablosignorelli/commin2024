@@ -1,0 +1,50 @@
+body{
+     
+    header{   
+           h1 {
+               text-align: center;
+               }
+          }
+        }
+
+ 
+ @media  screen and (max-width:1024px) {    
+  
+        body{
+             .headerli{
+                       nav{
+                           ul{
+                              li{
+                                 padding: 5px;
+                                 margin: 20px;
+                                 border-radius: 10px;    
+                                 left: 30px;
+                                 font-size: 15px;
+                                 }
+                                }
+                              }
+                            }
+                          }
+                        }       
+
+        
+  
+
+ @media  screen and (max-width:768px) {    
+  
+        body{
+             .headerli{
+                       nav{
+                           ul{
+                              li{
+                                 padding: 0px;
+                                 margin: 2px;
+                                 border-radius: 4px;    
+                                 left: 0px;
+                                 font-size: 7px;
+                                 }
+                                }
+                              }
+                            }
+                          }
+                        }

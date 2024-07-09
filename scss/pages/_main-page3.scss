@@ -1,0 +1,50 @@
+
+body{  
+
+      main{
+           h2 {
+               text-align: center;
+              }
+
+            .slide {
+                    width: 600px;
+                    position:relative;
+                    left: 650px;
+                 
+                    .d-block{
+                             height: 400px;
+                            } 
+                     } 
+
+           }       
+    }
+
+
+@media  screen and (max-width:1024px) {
+
+body{
+
+     main{
+         
+          .slide {
+                  width: 500px;
+                  left: 280px;
+                 } 
+         }
+    }
+}
+
+@media  screen and (max-width:768px) {
+
+body{
+    
+     main{
+      
+         .slide {
+                 width: 320px;
+                 left: 0px;
+                }
+         }
+    }
+
+}

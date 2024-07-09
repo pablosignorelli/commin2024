@@ -1,0 +1,145 @@
+
+
+body{
+     background-color: $Fondo;
+       
+      header{
+             nav{
+                 ul {
+                     li {   
+                         margin-left: 120px;
+                         display: inline-block;
+                         color:$Negro3 ;
+                         padding: 10px;
+                         background-color:$Verde1;
+                         margin: 30px;
+                         border: 3px solid $Negro1;
+                         border-radius: 15px;    
+                         position: relative;
+                         left: 100px;
+                         font-family:'Arial Narrow', Arial, sans-serif;
+                         font-size: 25px;
+                         font-weight: bolder;
+
+                         a {
+                            text-decoration: none;
+                           }
+                        }
+                    }
+                }
+
+                .imagen1 {
+                          /*display: none;*/
+                          vertical-align: middle;
+                          /* margin-top: -70px;*/
+                          border: 2px solid $Verde2;
+                          border-radius: 10px;
+                          position: fixed;
+                          z-index: 100;
+                          /*bottom: 10px;
+                          right: 10px;*/
+                         }
+
+            }
+    main {
+          font-size: 18px;
+          
+          h1 {
+              text-align: center;
+             }
+
+        .principal {
+                      font-family:"Arial";
+                      text-align: center;
+                      color:$Verde3;
+                      background: linear-gradient( to right, $Amarillo1,pink, violet);
+                      padding: 15px 5px;
+                      margin-top: 25px;
+                      margin-bottom: 90px;
+                      margin-left: 40px;
+                      margin-right: 40px;
+                      border: 3px solid $Negro2;
+                      border-radius: 15px;
+                     }
+
+            #principalA::first-letter{
+                                      font-family: 'Courier New', Courier, monospace;
+                                      font-size: 40px;
+                                      color: $Verde4;
+                                      } 
+                                     
+            .position {
+                       position:relative;
+                       left: 800px;
+                       }  
+
+                           
+                       
+            .arduinouno {
+                         position:relative;
+                        /* left: 500px;*/
+                        } 
+       
+           
+          }
+    }   
+
+
+    @media  screen and (max-width:1024px) {
+
+         body{
+
+          
+              .main1 {
+                     font-size: medium;
+       
+              .principal {
+                          font-size: larger;
+                          border-radius: 12px;
+                          padding: 10px 4px;
+                          margin-bottom: 70px;
+                         }
+
+             .position {
+                        position: relative;
+                        left: 400px;
+                          }    
+                          
+            .arduinouno {
+                         position: relative;
+                         left: 200px;
+                         }             
+           
+                }
+            }
+        }
+
+@media  screen and (max-width:768px) {
+
+body{
+    
+    .main1 {
+           font-size: small;
+       
+          .principal {
+                      font-size:small;
+                      border-radius: 10px;
+                      padding: 8px 2px;
+                      margin-bottom: 10px;
+                     }
+                  
+           .position {
+                      position:relative;
+                      left: 50px;
+                      } 
+                                  
+           .arduinouno {
+                        position:relative;
+                        bottom: 280px;
+                        left: 220px;
+                        width: 80px;
+                       }           
+
+            }
+        }
+    }
