@@ -242,10 +242,10 @@ body main .contenedor .footer {
     display: none;
   }
   body .main .imagen2B {
+    max-width: 80%;
     position: relative;
     left: 50px;
-    top: 100px;
-    width: 160px;
+    top: 10px;
   }
 }
 body main .contenedor {
@@ -310,9 +310,9 @@ body main .contenedor .footer {
   }
   body main .imagen3 {
     position: relative;
-    left: -10px;
+    left: 15px;
     top: 30px;
-    width: 30px;
+    max-width: 90%;
     height: 150px;
   }
   body main .imagen4 {
