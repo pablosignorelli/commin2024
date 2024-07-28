@@ -19,6 +19,10 @@ body{
                      .blue {
                             color: $Azul1;
                            }
+
+                     .imagen3{
+                             width: 350px;
+                             }      
                     }
 
             .sidebar {
@@ -35,6 +39,11 @@ body{
                       background-color: $Celeste1;
                       grid-column-start: sombra1;
                       grid-column-end: sombra1;
+
+                      .imagen4{
+                               width: 600px;
+                               height: 500px;
+                              }
                       }
    
             .footer {

@@ -36,6 +36,7 @@ body{
                           border-radius: 10px;
                           position: fixed;
                           z-index: 100;
+                          width:100px;
                           /*bottom: 10px;
                           right: 10px;*/
                          }
@@ -59,7 +60,7 @@ body{
                       margin-left: 40px;
                       margin-right: 40px;
                       border: 3px solid $Negro2;
-                      border-radius: 15px;
+                      border-radius: 15px;                      
                      }
 
             #principalA::first-letter{
@@ -71,14 +72,28 @@ body{
             .position {
                        position:relative;
                        left: 800px;
+                       width:200px;
+                                               
                        }  
-
+            
+           
                            
                        
             .arduinouno {
                          position:relative;
                         /* left: 500px;*/
+
+                        transition-property: margin-left;
+                        transition-duration: 2s;
+                        transition-timing-function: ease-in;
+                        transition-delay: 2ms;
+
                         } 
+
+             .arduinouno:hover {
+                            transform: rotate(90deg);
+                            
+                            }  
        
            
           }

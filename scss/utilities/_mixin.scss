@@ -1,5 +1,5 @@
 @mixin card($eje-x, $eje-y ){
-
+                 position: relative;  
                  right:$eje-x ;
                  bottom: $eje-y ;    
                      }
@@ -12,7 +12,7 @@
 
 @mixin card1($param1){
 
-
+    position: absolute;
     left: $param1;
     
                }
