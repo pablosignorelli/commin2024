@@ -309,11 +309,11 @@ body main .contenedor .footer {
     font-size: 12px;
   }
   body main .imagen3 {
-    width: 150px;
-    height: 110px;
     position: relative;
-    left: 70px;
-    top: 10px;
+    left: -10px;
+    top: 30px;
+    width: 30px;
+    height: 150px;
   }
   body main .imagen4 {
     display: none;
